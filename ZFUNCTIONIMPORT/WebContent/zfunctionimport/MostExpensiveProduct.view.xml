@@ -1,0 +1,17 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		xmlns:form="sap.ui.layout.form"
+		controllerName="zfunctionimport.MostExpensiveProduct" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+	        <form:SimpleForm id="idsf">
+	             <Label text="Product ID"/>
+	             <Text text=""/>
+	             
+	             <Label text="Name"/>
+	             <Text  id="idName"/>
+	           
+	             
+	       </form:SimpleForm>
+		</content>
+	</Page>
+</core:View>
